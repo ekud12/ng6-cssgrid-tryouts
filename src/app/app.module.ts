@@ -5,10 +5,13 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { materialImports } from './material.imports';
+import { HeaderComponent } from './components/header/header.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { StickyNavModule } from 'ng2-sticky-nav';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, CommonModule, materialImports],
+  declarations: [AppComponent, HeaderComponent],
+  imports: [BrowserModule, BrowserAnimationsModule, CommonModule, StickyNavModule, materialImports, FlexLayoutModule],
   providers: [],
   bootstrap: [AppComponent]
 })

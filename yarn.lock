@@ -151,6 +151,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/flex-layout@^6.0.0-beta.15":
+  version "6.0.0-beta.15"
+  resolved "https://registry.npmjs.org/@angular/flex-layout/-/flex-layout-6.0.0-beta.15.tgz#9e85e9292286941973c7e6cdec02990d5fd6ec15"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/forms@^6.0.0-rc.1":
   version "6.0.0-rc.5"
   resolved "https://registry.npmjs.org/@angular/forms/-/forms-6.0.0-rc.5.tgz#9594f2c2423e46aa345000097ce1f8e6e6569fc5"
@@ -3870,6 +3876,10 @@ negotiator@0.6.1:
 neo-async@^2.5.0:
   version "2.5.1"
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.5.1.tgz#acb909e327b1e87ec9ef15f41b8a269512ad41ee"
+
+ng2-sticky-nav@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/ng2-sticky-nav/-/ng2-sticky-nav-0.1.0.tgz#416b126ac08bf4e2be4f461087d64e583158f75a"
 
 ngx-slimscroll@^3.7.0:
   version "3.7.0"
